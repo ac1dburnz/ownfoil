@@ -87,7 +87,7 @@ All [Tinfoil shop index keys](https://blawar.github.io/tinfoil/custom_index/) ar
 # Setup Authentication
 To enable shop authentication, simply define and set the `USERNAME` and `PASSWORD` environment variables inside the container. See the [docker-compose](#docker-compose) example.
 
-# Saves Manager
+# Saves Manager 
 Ownfoil can be configured to backup saves from multiple Switch device and make them available in your shop, so that you can install them with Tinfoil. It uses FTP to periodically retrieve the saves.
 
 Follow the guide below to enable an FTP server on your Switch and configure Ownfoil.
