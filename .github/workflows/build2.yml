@@ -19,8 +19,8 @@ on:
       - '**.md'
 
 env:
-  DOCKERHUB_SLUG: ac1dburn/ptpuploader
-  GHCR_SLUG: ghcr.io/ac1dburnz/ptpuploader
+  DOCKERHUB_SLUG: ac1dburn/ownfoil
+  GHCR_SLUG: ghcr.io/ac1dburnz/ownfoil
 
 jobs:
   build:
@@ -43,8 +43,8 @@ jobs:
             type=ref,event=pr
             type=edge
           labels: |
-            org.opencontainers.image.title=rTorrent and ruTorrent
-            org.opencontainers.image.description=rTorrent and ruTorrent
+            org.opencontainers.image.title=ownfoil
+            org.opencontainers.image.description=ownfoil
             org.opencontainers.image.vendor=ac1dburnz
       -
         name: Set up QEMU
