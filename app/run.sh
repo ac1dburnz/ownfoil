@@ -30,6 +30,7 @@ chown -R ${uid}:${gid} /app
 # Copy the shop config and template if it does not already exists
 cp -np /app/shop_config.toml $root_dir/shop_config.toml
 cp -np /app/shop_template.toml $root_dir/shop_template.toml
+mkdir /run/nginx
 
 # Setup nginx basic auth if needed
 if [[ ! -z $USERNAME && ! -z $PASSWORD ]]; then
