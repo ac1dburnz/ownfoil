@@ -45,4 +45,5 @@ mkdir /run/nginx
 echo "Starting ownfoil"
 nginx -g "daemon off;" &
 sudo -u $gt_user python /app/app.py $root_dir/shop_config.toml
+mkdir /run/nginx
 
