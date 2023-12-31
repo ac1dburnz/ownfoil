@@ -11,6 +11,7 @@ Ownfoil can also be used to backup saves from multiple Switch devices, and make 
 
 Why this project? I wanted a lightweight, dead simple, no dependancy and private personal Shop, without having to rely on other proprietary services (Google, 1fichier...) and having to maintain their implementation.
 
+
 # Table of Contents
 - [Usage](#usage)
 - [Configuration](#configuration)
